@@ -29,3 +29,4 @@ def update(tabela, chave, valor_chave, colunas, valores):
 
 def select(tabela, chave, valor_chave):
     query(f"SELECT * FROM {tabela} WHERE {chave} =%s", (valor_chave,)) #para retornar um valor sempre é usado o query
+.
